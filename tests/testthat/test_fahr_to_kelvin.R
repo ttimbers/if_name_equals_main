@@ -1,4 +1,5 @@
 # tests fahr_to_kelvin function in temp_convert script
+library(testthat)
 source('src/temp_convert.R')
 
 test_that("fahr_to_kelvin is correct", {

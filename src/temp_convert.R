@@ -24,6 +24,6 @@ fahr_to_kelvin <- function(temp) {
   return(kelvin)
 }
 
-if (getOption('run.main', default=FALSE)) {
+if (getOption('run.main', default = FALSE)) {
   main()
 }

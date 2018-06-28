@@ -2,8 +2,6 @@
 # converts the temperatures of 0, 72 and 100 degrees Farenheight to degrees Kelvin
 
 main <- function (){
-  message('main!')
-  
   print(fahr_to_kelvin(0))
   print(fahr_to_kelvin(72))
   print(fahr_to_kelvin(100))

@@ -1,6 +1,14 @@
 # if_name_equals_main
 
-Example where you can run 
+Example where you use the following to call your main function in an R script:
+
+```
+if (getOption('run.main', default = FALSE)) {
+  main()
+}
+```
+
+and then run:
 
 ```{bash}
 rscript tests/testthat/test_fahr_to_kelvin.R
